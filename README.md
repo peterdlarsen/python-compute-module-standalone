@@ -30,6 +30,8 @@ def add(context, event) -> int:
 
 @function
 def get_sources(context, event) -> List[str]:
+    while True:
+        print("hello world")
     return context["sources"].keys()
 ```
 
